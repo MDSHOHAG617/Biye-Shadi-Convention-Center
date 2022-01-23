@@ -1,7 +1,5 @@
 
-a{
-    text-decoration: none;
-}
+
 
 .rounded-pill {
     background: rgb(235, 177, 177);
@@ -19,6 +17,7 @@ a{
     position: relative;
     bottom: 40px;
     background-color: rgb(76, 76, 243);
+    margin-top: px;
 }
 .hot{
     background-color: rgb(204, 83, 83);
@@ -31,7 +30,16 @@ a{
     top: -10px;
     right: 20px;
 }
+.cards{
+    width: 240px;
+}
 
+.phto-gallery img:hover{
+    transform: scale(1.2);
+    transition-duration: .8s;
+    box-shadow: 20px 30px 40px  rgb(75, 63, 63);
+    border: 15px solid rgb(194, 174, 171);
+}
 
 
 @media (max-width:767px) {
