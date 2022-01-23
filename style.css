@@ -1,36 +1,25 @@
 
-
-
-
-.opacity{
-    opacity:;
+a{
+    text-decoration: none;
 }
 
-/* .carousel-caption{
-    width: 400px;
-    position: relative;
-    bottom: 300px;
-    left: 100px;
-} */
-
-
+.rounded-pill {
+    background: rgb(235, 177, 177);
+}
 .our-package{
     margin: 80px 0 50px 0;
 }
 .section-title{
     margin-bottom: 80px;
 }
-
 .hot-box{
     width: 200px;
     border-radius: 20px;
     padding: 40px 10px 15px 10px;
     position: relative;
     bottom: 40px;
-    
-   
+    background-color: rgb(76, 76, 243);
 }
-
 .hot{
     background-color: rgb(204, 83, 83);
     text-align: center;
@@ -41,8 +30,6 @@
     position: absolute;
     top: -10px;
     right: 20px;
-
-    
 }
 
 
@@ -52,5 +39,11 @@
         position: relative;
         margin-top:60px;
     }
+    .carousel-inner img {
+       height: 300px;
+    }
+    
+    
+    
     
 }
