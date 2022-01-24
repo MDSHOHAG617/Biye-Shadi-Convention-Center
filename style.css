@@ -1,6 +1,6 @@
 
 
-
+/* something special css  */
 .rounded-pill {
     background: rgb(235, 177, 177);
 }
@@ -16,8 +16,10 @@
     padding: 40px 10px 15px 10px;
     position: relative;
     bottom: 40px;
-    background-color: rgb(76, 76, 243);
+    background-color: rgb(66, 156, 204);
     margin-top: px;
+    box-shadow: 10px 10px 30px 10px rgb(136, 129, 129);
+   
 }
 .hot{
     background-color: rgb(204, 83, 83);
@@ -41,6 +43,9 @@
     border: 15px solid rgb(194, 174, 171);
 }
 
+
+
+/* mediya Query */
 
 @media (max-width:767px) {
     .hot-box{
